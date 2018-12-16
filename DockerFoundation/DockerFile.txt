@@ -1,0 +1,8 @@
+# Getting base image ubuntu:18.04 from docker hub
+FROM ubuntu:18.04
+
+MAINTAINER Saifullah al Mujahid <mujahid7292@gmail.com>
+
+RUN apt-get update
+
+CMD ["echo","Hello World......"]
